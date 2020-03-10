@@ -1,0 +1,237 @@
+.navbar-collapse {
+    justify-content: flex-end; }
+  
+  .nav-item a {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 0; }
+.banner {
+  margin-top: 6rem; }
+  .banner img {
+    max-height: 500px; }
+    .image img {
+        height: auto; }
+    @media only screen and (max-width: 576px) {
+
+
+        .navbar {
+            padding-left: 0;
+            padding-right: 0;
+            justify-content: flex-end;
+            padding-bottom: 0; }
+        
+          .navbar-content {
+            padding: 12px; }
+        
+          .navbar-items {
+            padding-right: 0;
+            padding: 0px 0;
+            padding-left: 0; }
+        
+          .navbar-brand {
+            margin: 0 auto;
+            display: table; }
+        
+          .navbar-toggler {
+            outline: none !important; }
+        
+          .nav-item a {
+            text-align: center;
+            font-size: 1rem;
+            margin-top: 12px;
+            padding: 0;
+            font-family: 'Open Sans';
+            font-weight: 400; }
+        
+          .navbar-nav {
+            background-color: #dadada; }
+        
+          .navbar-light .navbar-nav .nav-link {
+            margin-top: 12px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            color: black; }
+            .outline {
+                outline: none; }
+             .nav-link:hover {
+                    background-color: white;
+                    color: #44a2d8 !important; }
+                
+                  .card-img-overlay {
+                    top: 35%;
+                    left: 5%; }
+                
+                  .banner-text h2 {
+                    font-family: "Mukta";
+                    font-size: 18px;
+                    margin-bottom: 0; }
+                  .banner-text h3 {
+                    font-family: 'Spartan';
+                    font-size: 7px; }
+                    .image {
+                        text-align: center; }
+                    
+                      .about-content-button {
+                        padding-left: 24px;
+                        padding-right: 8px !important; }
+                    
+                      .about-content {
+                        margin-top: 1.9rem; }
+                        .about-content h2 {
+                          font-family: "Mukta";
+                          color: black;
+                          font-size: 2.6rem;
+                          font-weight: 600; }
+                        .about-content p {
+                          color: black;
+                          font-family: "Spartan";
+                          font-size: .8rem;
+                          font-weight: lighter;
+                          line-height: 2.5; }
+    }
+    @media only screen and (min-width: 576px) {
+        .navbar-light .navbar-nav .nav-link {
+          padding-left: 2.7rem;
+          color: black; }
+      
+        .navbar-items {
+          padding-right: 0;
+          padding: 20px 0;
+          padding-left: 0; }
+      
+        .nav-item a {
+          text-align: center;
+          font-size: .8rem;
+          margin-top: 8px;
+          padding: 0;
+          font-family: 'Open Sans';
+          font-weight: 600; }
+      
+        .navbar-brand img {
+          display: block;
+          margin-left: auto; }
+          .card-img-overlay {
+            top: 40%;
+            left: 10%; }
+        
+          .banner-text h2 {
+            font-family: "Mukta";
+            font-size: 28px; }
+          .banner-text h3 {
+            font-family: 'Spartan';
+            font-size: 11px; }
+            .image {
+                text-align: center; }
+            
+              .about-content-button {
+                padding-right: 0 !important;
+                padding-left: 0; }
+            
+              .about-content {
+                margin-top: 1.9rem; }
+                .about-content h2 {
+                  font-family: "Mukta";
+                  color: black;
+                  font-size: 2.6rem;
+                  font-weight: 800; }
+                .about-content p {
+                  color: black;
+                  font-family: "Spartan";
+                  font-size: 1rem;
+                  font-weight: lighter;
+                  line-height: 2; }
+}      
+
+@media only screen and (min-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+      padding-left: 2.5rem;
+      color: black; }
+  
+    .navbar-items {
+      padding-right: 0;
+      padding: 18px 0;
+      padding-left: 0; }
+  
+    .nav-item a {
+      text-align: center;
+      font-size: .8rem;
+      margin-top: 8px;
+      padding: 0;
+      font-family: 'Open Sans';
+      font-weight: 600; }
+  
+    .banner {
+      margin-top: 5rem !important; }
+      .card-img-overlay {
+        top: 10%;
+        left: 10%; }
+    
+      .banner-text h2 {
+        font-family: "Mukta";
+        font-size: 32px;
+        margin-bottom: 8px; }
+      .banner-text h3 {
+        font-family: 'Spartan';
+        font-size: 12px; }
+        .about-content {
+            margin-top: 0; }
+            .about-content h2 {
+              font-family: "Mukta";
+              color: black;
+              font-size: 2.6rem;
+              font-weight: 800;
+              margin-bottom: 16px; }
+            .about-content p {
+              color: black;
+              font-family: "Spartan";
+              font-size: .9rem;
+              font-weight: lighter;
+              line-height: 2; }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-link {
+      padding-left: 4.5rem;
+      color: #000000; }
+  
+    .nav-item a {
+      text-align: center;
+      font-size: 1rem;
+      margin-top: 8px;
+      padding: 0;
+      font-family: 'Open Sans';
+      font-weight: 600; }
+  
+    .card-img-overlay {
+      top: 40%;
+      left: 10%; }
+  
+    .banner {
+      margin-top: 6rem; }
+      .banner .banner-text h2 {
+        font-family: "Mukta";
+        font-size: 42px; }
+      .banner .banner-text h3 {
+        font-family: 'Spartan';
+        font-size: 16px; }
+
+  .image img {
+    height: 388px; }
+
+  .about-content h2 {
+    font-family: "Mukta";
+    color: black;
+    font-size: 2.9rem;
+    font-weight: 800; }
+  .about-content p {
+    color: black;
+    font-family: "Spartan";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.8; }
+
+}  
